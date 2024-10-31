@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+   
+    <style>
+        table{
+            display: block;
+            margin: auto;
+            width: fit-content;
+        }
+    
+   table,th, td{
+    border: 2px solid black;   
+    border-collapse: collapse;
+    }
+    div
+    {
+        background-color: palegreen;
+        width: 50%;
+    }
+   
+        </style>
+</head>
+<body>
+    <div>
+    <h1 style="text-align: center;" > Simple Marksheet</h1>
+    <table>
+        <tr>
+            <th>S.no</th>
+            <th>Subject</th>
+            <th>Marks Obtained</th>
+            <th>Max Marks</th>
+            <th>Total Marks Obtained</th>
+            <th>Total Max Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Applied Calculus</td>
+            <td>80</td>
+            <td>100</td>
+            <td rowspan="4">220</td>
+            <td rowspan="4">300</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>BEE</td>
+            <td>60</td>
+            <td>100</td>
+            <!-- <td rowspan="4">100</td>
+            <td rowspan="4">100</td> -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>CS</td>
+            <td>40</td>
+            <td>50</td>
+            <!-- <td rowspan="4">100</td>
+            <td rowspan="4">100</td> -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>FST</td>
+            <td>40</td>
+            <td>50</td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
